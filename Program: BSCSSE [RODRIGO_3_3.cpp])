@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+
+    cout << "\nEnter the first number: ";
+    cin >> num1;
+    cout << "\nThe First Number is: "<<num1;
+
+    cout << "\nEnter the second number: ";
+    cin >> num2;
+    cout << "\nThe Second Number is: "<<num2;
+
+    cout << "\nSum: " << num1 + num2 << endl;
+    cout << "\nDifference: " << num1 - num2 << endl;
+    cout << "\nProduct: " << num1 * num2 << endl;
+
+    if (num2 != 0) {
+        cout << "Remainder: " << num1 % num2 << endl;
+        cout << "Quotient: " << (double)num1 / num2 << endl;
+    } else {
+        cout << "Remainder and quotient cannot be calculated because division by zero is not allowed." << endl;
+    }
+
+    return 0;
+}
