@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Day\t\tTime\t\tCourse Code\tSection\tRoom" << endl;
+    cout << "Tuesday\t\t7:00-9:40\tCCS0001\tTN02\tONLINE" << endl;
+    cout << "Tuesday\t\t11:00-1:00\tGED0011\tTN02\tONLINE" << endl;
+    cout << "Tuesday\t\t1:00-2:20\tGED0006\tTN02\tONLINE" << endl;
+    
+    cout << "Wednesaday\t\t7:00-9:50\tCCS0001L\tTN02\tF702" << endl;
+    cout << "Wednesaday\t\t11:00-1:00\tGED0004\tTN02\tF301" << endl;
+    cout << "Wednesaday\t\t1:00-2:50\tGED0009\tTN02\tF505" << endl;
+    
+    cout << "Thursday\t\t7:00-9:50\tCCS0003L\tTN02\tF702" << endl;
+    
+    cout << "Friday\t\t7:00-9:40\tCCS0003\tTN02\tONLINE" << endl;
+    cout << "Friday\t\t11:00-1:00\tGED0011\tTN02\tONLINE" << endl;
+    cout << "Friday\t\t1:00-2:20\tGED0006\tTN02\tONLINE" << endl;
+    
+    cout << "Saturday\t\t11:00-1:00\tGED0004\tTN02\tF301" << endl;
+    cout << "Saturday\t\t1:00-2:50\tGED0009\tTN02\tF505" << endl;
+   
+    
+    
+    return 0;
+}
